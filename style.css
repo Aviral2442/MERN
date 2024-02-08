@@ -1,8 +1,13 @@
+:root{
+    --theme-color:red;
+}
+
+
 .mainSection{
     height: 600px;
     color: white;
     text-align: center;
-    background-image: url("https://wallpapercave.com/wp/wp8903914.jpg");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5axS6p0_W1f_gNrOcCmusJgRqYm_0yU2jED229sDvVuPB_pNdPdAd4BQ0iQ&s");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -11,4 +16,46 @@
 }
 *{
     box-sizing: border-box;
+}
+.btn{
+    padding: 8px 15px;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: rgb(98, 113, 113);
+    color: black;
+}
+
+.section-title{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
+}
+
+.features{
+    display: inline-flex;
+    background-color: aquamarine;
+    width: 100%;
+    align-items: center;
+    padding: 100px 400px;
+}
+
+.card{
+    width: 200px;
+    text-align: center;
+    /* color: rgb(55, 112, 97); */
+    color: var(--theme-color);
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    transition-duration: .5s;
+}
+
+.card:hover{
+    color:rgb(42, 127, 177);
+    background-color: white;
+}
+
+.features-icons{
+    color: var(--theme-color);
 }
