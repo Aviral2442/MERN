@@ -1,0 +1,14 @@
+.mainSection{
+    height: 600px;
+    color: white;
+    text-align: center;
+    background-image: url("https://wallpapercave.com/wp/wp8903914.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 280px;
+    box-sizing: border-box;
+}
+*{
+    box-sizing: border-box;
+}
