@@ -1,6 +1,10 @@
 :root{
     --theme-color:red;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 
 .mainSection{
     height: 600px;
@@ -57,4 +61,35 @@
 
 .features-icons{
     color: var(--theme-color);
+}
+
+.contact{
+    padding: 50px 300px;
+}
+
+.input , .contact-btn{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 2px double rgb(36, 159, 144);
+}
+
+.contact-btn{
+    color: white;
+    background-color: darkblue;
+}
+
+.footer{
+    padding: 50px 300px;
+    background-color: rgb(9, 15, 52);
+    color: white;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.social-links{
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
 }
