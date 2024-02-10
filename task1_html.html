@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>TASK 1</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            width: 100%;
+            height: 80px;
+            color: white;
+            background-color: #02233B;
+            display: grid;
+            grid-template-columns: 2fr 2fr;
+        }
+        span{
+            text-align: center;
+            width: 50px;
+            margin-left: 29px;
+        }
+        .hdr{
+            padding: 30px 2px;
+        }
+        .logo{
+            font-size: 25px;
+        }
+        .hero{
+            background-image: url("https://media.istockphoto.com/id/157309886/photo/the-wall.jpg?b=1&s=612x612&w=0&k=20&c=JGAgXNFHzhAlWGUsmoBUMVfiBl-X_15WafUh8SncPMQ=");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 660px;
+        }
+        .heroh{
+            padding-top: 280px;
+            color: white;
+            text-align: center;
+            font-size: 65px;
+        }
+        .heroh2{
+            color: white;
+            font-size: 65px;
+            font-weight: 100;
+            text-align: center;
+            padding-top: 20px;
+        }
+        
+        .section-title{
+            text-align: center;
+            margin-top: 70px;
+            font-size: 59px;
+        }
+
+        .features{
+            display: inline-flex;
+            /* background-color: aquamarine; */
+            width: 100%;
+            align-items: center;
+            padding: 100px 400px;
+        }
+
+        .card{
+            width: 250px;
+            text-align: center;
+            /* color: rgb(55, 112, 97); */
+            color: var(--theme-color);
+            border: 2px solid rgb(255, 255, 255);
+            border-radius: 8px;
+            margin: 10px;
+            padding: 20px;
+            transition-duration: .5s;
+        }
+
+        .card:hover{
+            color:rgb(255, 255, 255);
+            background-color: rgb(0, 0, 0);
+        }
+
+        .features-icons{
+            color: aqua ;
+        }
+        .features-heading{
+            margin-bottom: 10px;
+            font-size: 22px;
+        }
+        .features-para{
+            width: 200px;
+            text-align: justify;
+        }
+        video{
+            width: 100%;
+        }
+        .contact{
+            padding: 50px 300px;
+        }
+
+        .input , .contact-btn{
+            width: 100%;
+            padding: 20px;
+            margin-bottom: 30px;
+            border: 2px double rgb(36, 159, 144);
+        }
+
+        .contact-btn{
+            color: white;
+            background-color: darkblue;
+        }
+        .gender{
+            width: 100%;
+            padding: 20px;
+            margin-bottom: 30px;
+            border: 2px double rgb(36, 159, 144);
+            justify-content: space-around;
+        }
+        .footer{
+            padding: 50px 300px;
+            background-color: rgb(9, 15, 52);
+            color: white;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .footer-title{
+            margin-bottom: 20px;
+        }
+        .social-links{
+            margin-top: 30px;
+            text-decoration: none;
+            padding: 10px;
+            font-size: 50px;
+            color: aqua;
+        }
+        .fpara{
+            width: 300px;
+            margin-top: 30px;
+        }
+        .social-links:hover{
+            margin-top: 20px;
+            font-size: 55px;
+            color: white;
+        }
+        .fmenu{
+            margin-left: 80px;
+        }
+        .fmenu ul{
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <header>
+        <div class="logo hdr">
+            <span>Aviral</span>
+        </div>
+        <div class="menu hdr">
+            <span>HOME</span><span>ABOUT ME</span><span>EXPERIENCE</span><span>RESUME</span><span>CONTACT ME</span>
+        </div>
+    </header>
+
+
+    <main> 
+        
+        <section class="hero">
+            <h2 class="heroh">WELCOME</h2>
+            <h5 class="heroh2">TO THE WORLD OF Designers !</h5>
+        </section>
+
+        <h2 class="section-title "> OUR Features</h2>
+        <section class="features">
+
+            <div class="card1 card">
+                <i class="fa-3x fa-solid fa-rocket features-icons" style="color: black; margin-bottom: 12px;"></i>
+                <h3 class="features-heading">Fast Delivery</h3>
+                <p class="features-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates debitis suscipit eius, aliquid illum vitae ex autem facere sapiente evenietLorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates debitis suscipit eius, aliquid illum vitae ex autem facere sapiente eveniet.</p>
+            </div>
+
+
+            <div class="card2 card">
+                <i class="fa-3x fa-brands fa-instagram features-icons" style="color: black; margin-bottom: 12px"></i>
+                <h3 class="features-heading">Instragram</h3>
+                <p class="features-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates debitis suscipit eius, aliquid illum vitae ex autem facere sapiente evenietLorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates debitis suscipit eius, aliquid illum vitae ex autem facere sapiente eveniet.</p>
+            </div>
+
+
+            <div class="card3 card">
+                <i class="fa-3x fa-brands fa-github features-icons" style="color: black; margin-bottom: 12px"></i>
+                <h3 class="features-heading">Git hub</h3>
+                <p class="features-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates debitis suscipit eius, aliquid illum vitae ex autem facere sapiente evenietLorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates debitis suscipit eius, aliquid illum vitae ex autem facere sapiente eveniet.</p>
+            </div>
+        </section>
+
+        <section class="vdo">
+            <video src="istockphoto-1255754954-640_adpp_is.mp4" autoplay controls muted loop></video>
+        </section>
+
+        <section class="contact">
+            <h2 class="section-title">Contact US</h2>
+
+            <fom>
+                <label> Name </label>
+                <input type="text" class="input">
+
+                <label for="">Email</label>
+                <input type="email" class="input">
+
+                <label >Contact No</label>
+                <input type="number" class="input">
+
+                <label for="g">Gender</label>
+
+                <div class="gender">
+                <input type="radio" name="g" >  Male
+                <input type="radio" name="g" style="margin-left: 12px">  Female
+                </div>
+
+                <label for="g">Course</label>
+
+                <div class="gender">
+                    <input type="checkbox">    HTML
+                    <input type="checkbox" style="margin-left: 12px">    CSS
+                    <input type="checkbox" style="margin-left: 12px">    JAVASCRIPT
+                    <input type="checkbox" style="margin-left: 12px">    REACT
+                    <input type="checkbox" style="margin-left: 12px">    NODE JS
+                </div>
+
+                <label for="">Message</label>
+                <textarea class="input" cols="30" rows="10"></textarea>
+
+                <button class="contact-btn">Submit</button>
+            </fom>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <section class="footer">
+
+            <div>
+                <h2 class="footer-title">AVIRAL Pvt. Ltd.</h2>
+                <p class="fpara"  class="fpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, harum veritatis modi iusto delectus earum itaque ea nemo fugiat temporibus.</p>
+                <p class="fpara">&copy; 2024 @viral pvt. ltd.</p>
+            </div>
+
+            <div class="fmenu">
+                <h2>Usefull Links </h2>
+               <ul> 
+                    <li>HOME</li>
+                    <li>ABOUT ME</li>
+                    <li>EXPERIENCE</li>
+                    <li>COURSES</li>
+                    <li>SERVICES</li>
+                    <li>CONTACT US</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2 class="footer-title">Visit us at : </h2>
+                <a href="#" class="social-links"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="social-links"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" class="social-links"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="social-links"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+
+        </section>
+
+    
+        
+    </footer>
+
+
+</body>
+</html>
