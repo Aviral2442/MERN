@@ -169,6 +169,11 @@
             -webkit-transform: translate3d(0, 0, 0);
             -webkit-animation: rotate-right 12s linear 0s infinite;
         }
+
+        .my-img {
+            height: 300px;
+            object-fit: cover;
+        }
     </style>
 </head>
 
@@ -3635,37 +3640,108 @@
         </div>
 
         <!-- card-grid -->
-        <div class="section-card-grid">
+        <div class="section-card-grid mb-5">
             <div class="container">
-            <div class="row">
-                <div class="col-4">
-                    <div class="card shadow">
-                        <div class="card-body">
-                            <h3 class="card-title">Title</h3>
-                            <p class="card-text">Text</p>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card shadow">
+                            <img class="card-img-top my-img"
+                                src="https://img.freepik.com/free-vector/beautiful-travel-landing-page_23-2148372541.jpg?size=626&ext=jpg"
+                                alt="">
+                            <div class="card-body">
+                                <h3 class="card-title">Travel</h3>
+                                <p class="card-text">Text</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card shadow">
+                            <img class="card-img-top my-img"
+                                src="https://img.freepik.com/free-photo/happy-waiter-serving-food-group-cheerful-friends-pub_637285-12525.jpg?size=626&ext=jpg&ga=GA1.1.625068628.1707999033&semt=sph"
+                                alt="">
+                            <div class="card-body">
+                                <h3 class="card-title">Resturant</h3>
+                                <p class="card-text">Text</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card shadow ">
+                            <img class="card-img-top my-img"
+                                src="https://img.freepik.com/free-psd/food-menu-restaurant-web-banner-template_106176-825.jpg?size=626&ext=jpg&ga=GA1.1.625068628.1707999033&semt=sph"
+                                alt="">
+                            <div class="card-body">
+                                <h3 class="card-title">Food</h3>
+                                <p class="card-text">Text</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="card shadow">
-                        <div class="card-body">
-                            <h3 class="card-title">Title</h3>
-                            <p class="card-text">Text</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card shadow">
-                        <div class="card-body">
-                            <h3 class="card-title">Title</h3>
-                            <p class="card-text">Text</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
             </div>
 
         </div>
+
+
+        <!-- carasole -->
+
+        <section class="testimonial">
+
+            <!-- carousel-default -->
+
+            <div id="carouselId" class="carousel carousel-dark slide  shadow mx-auto" data-bs-ride="carousel">
+
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active" data-bs-ride="36000">
+                        <div class="container py-5 shadow p-4 ">
+                            <div class="col-8 col-md-3 mx-auto">
+                                <img class="w-100 rounded-circle" src="IMG_20230207_124331_861-removebg-preview.png"
+                                    alt="">
+                                <h3 class="text-center my-4 fs-32 text-primary fw-bold">Aviral Srivastava</h3>
+                            </div>
+                            <p class="text-center">Hey! Good Evening <br> Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Qui dolorem accusantium officiis repudiandae alias necessitatibus
+                                molestias reprehenderit ratione voluptates perspiciatis.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item " data-bs-ride="32000">
+                        <div class="container py-5 shadow">
+                            <div class="col-8 col-md-3 mx-auto">
+                                <img class="w-100 rounded-circle shadow"
+                                    src="IMG_20230207_124331_861-removebg-preview.png" alt="">
+                                <h3 class="text-center my-4">Harsh Srivastava</h3>
+                            </div>
+                            <p class="text-center">Hey! Good Evening <br> Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Qui dolorem accusantium officiis repudiandae alias necessitatibus
+                                molestias reprehenderit ratione voluptates perspiciatis.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container py-5 shadow">
+                            <div class="col-8 col-md-3 mx-auto ">
+                                <img class="w-100 rounded-circle" src="IMG_20230207_124331_861-removebg-preview.png"
+                                    alt="">
+                                <h3 class="text-center my-4">Aviral Harsh Srivastava</h3>
+                            </div>
+                            <p class="text-center">Hey! Good Evening <br> Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Qui dolorem accusantium officiis repudiandae alias necessitatibus
+                                molestias reprehenderit ratione voluptates perspiciatis.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+        </section>
 
 
     </main>
