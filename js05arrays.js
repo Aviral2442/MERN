@@ -31,3 +31,5 @@ fruits.pop(); // removes at the ends
 console.log(fruits);
 fruits.shift(); // removes from first
 console.log(fruits);
+
+
