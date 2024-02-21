@@ -30,10 +30,16 @@ function triangleArea(base, height) {
 // Create a function to reverse a number.
 
 function reverseFunction(num) {
-    let numStr = num.toString();
-    let reversedStr = '';
-    for (let i = numStr.length - 1; i >= 0; i--) {
-        reversedStr += numStr[i];
-    }
-    return parseInt(reversedStr);
-};
+	let numStr = num.toString();
+	let reversedStr = '';
+	for (let i = numStr.length - 1; i >= 0; i--) {
+		reversedStr += numStr[i];
+	}
+	return parseInt(reversedStr);
+}
+
+let num = 987654321;
+let reversedNum = reverseFunction(num);
+
+console.log(reversedNum);
+
