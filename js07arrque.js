@@ -66,15 +66,15 @@ const numss = [34, 28, 100, 29, 35, 77, 38];
 let sums = 0;
 for (let i of numss) {
     // console.log(i);
-    if (i%2 === 0) {
+    if (i % 2 === 0) {
         sums += i;
-  }
+    }
 }
 
-    console.log("----------------------------");
+console.log("----------------------------");
 
 
-numss.forEach((a) => { if (a % 2 === 0) { sums += a; }}); 
+numss.forEach((a) => { if (a % 2 === 0) { sums += a; } });
 console.log(sums);
 
 
