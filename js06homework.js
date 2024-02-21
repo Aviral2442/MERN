@@ -1,15 +1,14 @@
 // WAP to check if a number is prime
 
 function isPrime(num) {
-    if (num <= 1) return false; // Numbers less than or equal to 1 are not prime
+    if (num <= 1) return false; 
     for (let i = 2; i < num; i++) {
         if (num % i === 0) {
-            return false; // If num is divisible by any number other than 1 and itself
+            return false; 
         }
     }
-    return true; // If no divisors were found, num is a prime number
+    return true; 
 }
-
 
 const userInput = 11;
 console.log(`Is ${userInput} a prime number? `, isPrime(userInput));
@@ -24,7 +23,8 @@ function triangleArea(base, height) {
   let baseLength = 10;
   let heightLength = 5;
   let area = triangleArea(baseLength, heightLength);
-  console.log(`The area of the triangle is: ${area}`);
+//   console.log(`The area of the triangle is: ${area}`);
+console.log(area);
 
 
 // Create a function to reverse a number.
