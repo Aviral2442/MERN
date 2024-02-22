@@ -69,6 +69,7 @@ for (let i of numss) {
     if (i % 2 === 0) {
         sums += i;
     }
+    
 }
 
 console.log("----------------------------");
