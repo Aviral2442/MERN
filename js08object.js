@@ -59,3 +59,26 @@ const myphone = {
 
 console.log(myphone.variant);
 console.log(myphone.variant['12gb']);
+
+// array into onbjects 
+
+const phonelist = [
+    { brand : 'Oneplus', model : 'galaxy ', price : '12000' },
+    { brand : 'Apple', model : '12pro ', price : '14000' },
+    { brand : 'vivo', model : '18pro ', price : '16000' },
+    { brand : 'samsung', model : '19pro ', price : '18000' }
+]
+
+console.log(phonelist[1].price);
+
+console.log(phonelist[3].model);
+phonelist[3].model = '20pro';
+phonelist[phonelist.length-1].model = '20pro';   // if index is unknown
+console.log(phonelist[3].model);
+
+//find sum of all prices
+// get models of all smartphone in an array
+// [ '20pro', '18pro', '20pro]
+
+let prices = 0;
+phonelist.forEach ((price) => { if(leti=0 ; i<price.length; i++){ prices = price + prices;} console.log(prices); } );
