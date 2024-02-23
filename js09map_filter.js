@@ -33,3 +33,23 @@ console.log(names_result);
 
 
 //
+const nums2 = [ 32,6754,2345,876,123,872];
+const num2_result = nums2.filter ( (n) => { return n%2 === 0    });
+console.log(num2_result);
+
+
+// get model from array whose price is above 14000
+
+const phonelist = [
+    { brand: 'Oneplus', model: 'galaxy ', price1: '12000' },
+    { brand: 'samsung', model: '12pro ', price1: '14000' },
+    { brand: 'vivo', model: '18pro ', price1: '16000' },
+    { brand: 'samsung', model: '19pro ', price1: '18000' }
+]
+
+const findless = phonelist.filter( (n) => { return n.price1 > 14000 });
+console.log(findless);
+
+console.log(  phonelist.map( (n) => { return n.model}));
+
+console.log(  phonelist.filter( (n) => { return n.brand  === ' samsung' }));
