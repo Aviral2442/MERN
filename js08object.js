@@ -79,3 +79,8 @@ console.log(phonelist[3].model);
 //find sum of all prices
 // get models of all smartphone in an array
 // [ '20pro', '18pro', '20pro]
+
+let totalprice = 0;
+for ( let price of phonelist ) {
+    console.log(phonelist.price);
+}
