@@ -52,4 +52,10 @@ console.log(findless);
 
 console.log(  phonelist.map( (n) => { return n.model}));
 
-console.log(  phonelist.filter( (n) => { return n.brand  === ' samsung' }));
+console.log(  phonelist.filter( (n) => { return n.brand  === 'samsung' }));
+
+
+
+// reduce 
+
+// phonelist.reduce( (a, b) => {});
