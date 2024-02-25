@@ -15,7 +15,7 @@ else { console.log('odd'); }
 console.log(num1);
 
 
-// var let const var scope checking
+// var let const scope checking
 
 if (68 % 2 == 0) {
     console.log('even');

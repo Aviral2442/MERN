@@ -9,7 +9,9 @@ let num = [ 24, 56, 87, 87, 54, 65 , 34];
 for ( let i of num ){
     console.log(i);
 }
+
 console.log("----------------------------------------------------------------");
+
 for (let n of num){
     if (n%2 != 0 ){
         console.log(n);
