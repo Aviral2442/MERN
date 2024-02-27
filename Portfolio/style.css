@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    background-color: #111111;
+}
+
+:root{
+    --yellow: #FFB400;
+}
+
+h1{
+    color: aliceblue;
+}
