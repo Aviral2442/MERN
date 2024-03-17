@@ -29,4 +29,3 @@ else { console.log('odd'); }
 console.log(num2);  // global 
 // console.log(num3);  // local
 // console.log(pi);  // local
-

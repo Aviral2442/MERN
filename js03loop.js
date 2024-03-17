@@ -4,7 +4,7 @@ for ( let i = 0; i <= 10 ; i++ ){
 
 // print array elements 
 
-let num = [ 24, 56, 87, 87, 54, 65 , 34];
+let num = [ 24, 56, 83, 87, 54, 65 , 34];
 
 for ( let i of num ){
     console.log(i);
